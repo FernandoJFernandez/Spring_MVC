@@ -1,0 +1,5 @@
+package es.makigas.hibernate.modelo.tests;
+
+public class TestEmpleados {
+
+}

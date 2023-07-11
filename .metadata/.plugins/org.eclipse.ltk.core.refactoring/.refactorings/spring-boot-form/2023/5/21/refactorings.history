@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;spring-boot-form&apos;&#x0D;&#x0A;- Original project: &apos;spring-boot-form&apos;&#x0D;&#x0A;- Original element: &apos;spring-boot-form/src/main/java/com.bolsadeideas.springboot.form.app.models&apos;&#x0D;&#x0A;- Delete subpackages" description="Delete element" element1="/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;com.bolsadeideas.springboot.form.app.models.domain" element2="/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;com.bolsadeideas.springboot.form.app.models" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1685270456956" subPackages="true" version="1.0"/>
+</session>

@@ -1,0 +1,7 @@
+com\bolsadeideas\springboot\app\controllers\EjemploParamsController.class
+com\bolsadeideas\springboot\app\controllers\EjemploVariablesRutaController.class
+com\bolsadeideas\springboot\app\controllers\HomeController.class
+com\bolsadeideas\springboot\app\controllers\IndexController.class
+com\bolsadeideas\springboot\app\models\Usuario.class
+com\bolsadeideas\springboot\app\SpringBootWebApplication.class
+com\bolsadeideas\springboot\app\TextosPropertiesConfig.class

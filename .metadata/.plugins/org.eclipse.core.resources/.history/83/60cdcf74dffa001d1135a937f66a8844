@@ -1,0 +1,31 @@
+package com.bolsadeideas.springboot.app.controllers;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.bolsadeideas.springboot.app.models.Usuario;
+
+@Controller
+@RequestMapping("/app")
+public class IndexController {
+	
+	@GetMapping({"/index", "/", "", "/home"})
+	public String index(Model model) {
+		model.addAttribute("titulo","Hola Spring framework con Model!");
+		return "index";	
+	}
+	
+	@GetMapping("/perfil")
+	public String perfil(Model model){
+		Usuario usuario = new Usuario();
+		usuario.setNombre("Andrés");
+		usuario.setApellido("Guzmán");
+		usuario.setEmail("sdfsdf@skjfdhs.com");
+		model.addAttribute("usuario",usuario);
+		model.addAttribute("titulo","Perfil del usuario: ".concat(usuario.getNombre()));
+		return "perfil";
+	}
+	
+}

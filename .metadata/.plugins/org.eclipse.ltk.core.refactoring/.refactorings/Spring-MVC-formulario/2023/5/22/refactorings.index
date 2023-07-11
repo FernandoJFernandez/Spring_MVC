@@ -1,0 +1,9 @@
+1685342833233	Rename package 'com.bolsadeideas.springboot.form.app.controllers'
+1685342851439	Rename package 'com.bolsadeideas.springboot.form.app.editors'
+1685342860454	Rename package 'com.bolsadeideas.springboot.form.app.interceptors'
+1685342868809	Rename package 'com.bolsadeideas.springboot.form.app.models.domain'
+1685342876304	Rename package 'com.bolsadeideas.springboot.form.app.services'
+1685342886076	Rename package 'com.bolsadeideas.springboot.form.app.validation'
+1685342968210	Delete element
+1685343993154	Rename type 'IdentificadorRegex'
+1685344007718	Rename type 'IdentificadorRegexValidador'
